@@ -1,7 +1,7 @@
 body {
     --main-color: rgb(55, 44, 122);
     --secondary-color: #b4c5c9;
-    --tertiary-color: hsl(312, 51, 51);
+    --tertiary-color: hsl(312, 51%, 51%);
     --main-font-color: color(display-p3 1 .7.5 0);
     --secondary-font-color: color-mix(in srgb, #364d53 80%, brown);
 
