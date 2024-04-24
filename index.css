@@ -1,0 +1,35 @@
+body {
+    --main-color: rgb(55, 44, 122);
+    --secondary-color: #b4c5c9;
+    --tertiary-color: hsl(312, 51, 51);
+    --main-font-color: color(display-p3 1 .7.5 0);
+    --secondary-font-color: color-mix(in srgb, #364d53 80%, brown);
+
+    background-color: var(--main-color, blue);
+    font-family: Montserrat;
+}
+
+section {
+    background-color: #b4c5c9;
+    color: var(--secondary-font-color);
+}
+
+h3 {
+    color: var(--main-font-color);
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--secondary-color);
+    color: var(--title-color, black);
+}
+
+.subsection{
+    color: var(--main-font-color);
+}
+
+h2 {
+    text-decoration:underline;
+    color: var(--main-font-color);
+    background-color: #b4c5c9;
+}
