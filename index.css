@@ -22,6 +22,11 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--secondary-color);
     color: var(--title-color, black);
+    height: 10vh;
+    width: 85vw;
+    margin: 20px 20px 10px 10px;
+    text-align: center;
+    position: static;
 }
 
 .subsection{
@@ -32,4 +37,73 @@ h2 {
     text-decoration:underline;
     color: var(--main-font-color);
     background-color: #b4c5c9;
+}
+
+* {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+source[src="video_3.mp4"] {
+    width: 50%;
+    height: 50%;
+}
+
+video[controls]{
+    width: 80%;
+    height: 80%; 
+    margin: auto;
+    display: block;
+}
+
+h4, h3 {
+    padding: 5mm 5mm 0mm 5mm;
+}
+
+p {
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-bottom: 0.5cm;
+}
+
+audio {
+    width: 20em;
+    height: 5rem;
+    display: inline ;
+}
+
+fieldset {
+    border-color: rgb(55, 44, 122);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+form {
+    position: relative;
+    top: 10px;
+}
+
+button:hover{
+    color: #364d53;
+}
+
+textarea {
+    max-width: 50em;
+    max-height: 50em;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+h4:has(+ em){
+    text-decoration: underline;
+}
+
+ol > li {
+    text-decoration: underline;
 }
